@@ -1,0 +1,24 @@
+<manifest>
+    <main-class>com.bravebots.bravethieving.lumbridge_man.BraveThieving</main-class>
+    <name> Lumbridge Thieving bot</name>
+    <tag-line>thieves From Men</tag-line><!--Max of 50 chars-->
+    <description>steals like a bitch</description><!--Max of 110 chars-->
+    <version>1.0</version>
+    <compatibility>
+        <game>OSRS</game>
+        <!--Can be used if you absolutely need to disable DarkScape (highly discouraged)-->
+        <!--<disable-game>DARK</disable-game>-->
+    </compatibility>
+    <categories>
+        <category>thieving</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>EwildWalking</internal-id>
+    <!--The rest are optional-->
+    <open-source>false</open-source>
+    <hidden>true</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>private</access>
+    <tags>
+        <tag>Tree</tag>
+    </tags>
+</manifest>
